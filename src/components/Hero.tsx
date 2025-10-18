@@ -53,7 +53,7 @@ export const Hero = () => {
           delay: 0.6,
           duration: 0.8
         }}>
-            B.Tech CSE (Data Science) • Mohan Babu University • 93% Aggregate
+            B.Tech CSE (Data Science) • Mohan Babu University • 95% Aggregate
           </motion.p>
 
           <motion.div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8" initial={{
