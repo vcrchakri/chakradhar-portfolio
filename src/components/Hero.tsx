@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Download, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import profileImage from '@/assets/profile.jpg';
 export const Hero = () => {
   return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
@@ -13,6 +14,22 @@ export const Hero = () => {
       }} transition={{
         duration: 0.8
       }} className="space-y-6">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
+            className="flex justify-center mb-8"
+          >
+            <div className="relative">
+              <div className="absolute inset-0 rounded-full bg-gradient-glow blur-xl opacity-50"></div>
+              <img 
+                src={profileImage} 
+                alt="Chakradhar Reddy" 
+                className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full object-cover border-4 border-primary/30 shadow-glow"
+              />
+            </div>
+          </motion.div>
+
           <motion.h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight" initial={{
           opacity: 0,
           y: 20
