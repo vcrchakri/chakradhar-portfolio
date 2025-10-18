@@ -5,22 +5,40 @@ import { Button } from '@/components/ui/button';
 
 const projects = [
   {
+    title: 'Face Recognition System',
+    description: 'Real-time facial recognition application with 95% accuracy for automated identification and access control with OpenCV implementation.',
+    tech: ['Python', 'OpenCV', 'Face Detection', 'Computer Vision'],
+    gradient: 'from-cyan-500/20 to-blue-500/20',
+  },
+  {
+    title: 'Chat-GPT Interactive Chatbot',
+    description: 'Advanced conversational AI chatbot with OpenAI API integration for natural language processing and real-time interactions.',
+    tech: ['Python', 'OpenAI API', 'NLP', 'AI Integration'],
+    gradient: 'from-purple-500/20 to-pink-500/20',
+  },
+  {
+    title: 'FleetCare Vehicle Management',
+    description: 'User-friendly frontend application for streamlined fleet tracking, real-time vehicle monitoring, and resource optimization.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+    gradient: 'from-blue-500/20 to-cyan-500/20',
+  },
+  {
     title: 'Health Connect Hospital Website',
     description: 'A comprehensive hospital management system with patient records, appointment scheduling, and medical staff coordination.',
     tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-    gradient: 'from-cyan-500/20 to-blue-500/20',
+    gradient: 'from-green-500/20 to-emerald-500/20',
   },
   {
     title: 'Brain Tumor Classification',
     description: 'Deep learning model using CNN for accurate brain tumor detection and classification from MRI scans.',
     tech: ['TensorFlow', 'Keras', 'OpenCV', 'Python'],
-    gradient: 'from-purple-500/20 to-pink-500/20',
+    gradient: 'from-pink-500/20 to-purple-500/20',
   },
   {
     title: 'Weatherstack Pro',
     description: 'Real-time weather application providing accurate forecasts and weather data using API integration.',
     tech: ['JavaScript', 'API Integration', 'HTML', 'CSS'],
-    gradient: 'from-blue-500/20 to-cyan-500/20',
+    gradient: 'from-cyan-500/20 to-sky-500/20',
   },
 ];
 

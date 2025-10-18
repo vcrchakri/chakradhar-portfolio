@@ -5,6 +5,18 @@ import { Card } from '@/components/ui/card';
 const achievements = [
   {
     icon: Trophy,
+    title: 'AI & Data Analytics Internship',
+    description: '4-week virtual internship by AICTE, Shell India & Edunet Foundation on Green Skills',
+    color: 'text-cyan-400',
+  },
+  {
+    icon: Award,
+    title: 'Java Programming Internship',
+    description: '2-month internship at VaultofCodes focused on Java development',
+    color: 'text-orange-400',
+  },
+  {
+    icon: Trophy,
     title: 'SIH Government Mentorship',
     description: 'Selected for Smart India Hackathon Government Mentorship Program',
     color: 'text-yellow-400',
