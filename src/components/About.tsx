@@ -89,10 +89,11 @@ export const About = () => {
             <p className="text-lg mb-2">
               <span className="font-semibold text-primary">B.Tech in Computer Science Engineering</span>
             </p>
+            <p className="text-muted-foreground mb-1">Mohan Babu University
+          </p>
             <p className="text-muted-foreground mb-1">Specialization: Data Science</p>
-            <p className="text-muted-foreground mb-1">Mohan Babu University</p>
             <p className="text-muted-foreground mb-1">2022 – 2026</p>
-            <p className="text-lg font-semibold text-primary mt-2">CGPA: 95%</p>
+            <p className="text-lg font-semibold text-primary mt-2">CGPA: 9.5%</p>
           </Card>
         </motion.div>
       </div>
