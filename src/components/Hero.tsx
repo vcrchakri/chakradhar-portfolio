@@ -89,9 +89,11 @@ export const Hero = () => {
                 View My Work
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="glow-border hover:bg-primary/10">
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
+            <Button size="lg" variant="outline" className="glow-border hover:bg-primary/10" asChild>
+              <a href="/Chakradhar_Resume.pdf" download="Chakradhar_Resume.pdf">
+                <Download className="mr-2 h-5 w-5" />
+                Download Resume
+              </a>
             </Button>
           </motion.div>
 
